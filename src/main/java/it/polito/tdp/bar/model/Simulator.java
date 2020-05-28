@@ -30,6 +30,7 @@ public class Simulator {
 
 	// setto modello del mondo all'inizio
 	public void setTavoli() {
+		tavoli.clear();
 		tavoli.add(new Tavolo(10, null));
 		tavoli.add(new Tavolo(10, null));
 
